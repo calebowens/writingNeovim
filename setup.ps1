@@ -2,6 +2,7 @@ sudo apt purge vim -y
 
 sudo add-apt-repository ppa:neovim-ppa/unstable -y
 sudo apt install neovim -y
+pip3 install neovim
 
 sudo ln -s /usr/bin/nvim /usr/bin/vim
 
